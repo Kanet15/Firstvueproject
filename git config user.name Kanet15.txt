@@ -1,0 +1,10 @@
+git init
+git config user.name "Kanet15"
+git config credential.username "Kanet15"
+git config --global user.email "kanetchusangthong@gmail.com"
+git config --global user.name "Kanet15"
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Kanet15/Firstvueproject.git
+git push -f origin main
